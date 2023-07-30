@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carouselContainer{
+  width:100%;
+  height:70vh;
+  background-size:cover;
+  background-position:center;
 }
+.container1{
+  background-image:url(https://mobirise.com/extensions/commercem4/assets/images/1.jpg);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.container2{
+  background-image:url(https://mobirise.com/extensions/commercem4/assets/images/3.jpg);
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.container3{
+  background-image:url(https://i03.appmifile.com/388_operator_in/27/07/2023/b565de9a02c7dbe785b07c45cd91363e.jpg?f=webp);
+
+}
+.card{
+  width:20vw;
+  height:45vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  align-items: center;
+  padding:3%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-right: 2.5vw;
+  margin-bottom: 4vh;
+  .cardContainer{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+    
   }
-  to {
-    transform: rotate(360deg);
+  .cardContainer img {
+    width: 100%;
+    height: 100%;
+   
+  }
+}
+.NavBarContainer{
+  /* border:2px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* padding: 2%; */
+  align-items: center;
+  position: absolute;
+  top:3%;
+
+  .Navbar{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border:2px solid green; */
+    width: 70%;
+    
+    .categories{
+      margin-left: 3vw;
+      margin-right: 3vw;
+    }
+    .cart{
+      margin-left: 3vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
